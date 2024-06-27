@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather  />
+        <Weather defaulCity="New York"  />
         <footer>
           This project was coded by{" "}
           <a href="https://www.andile.io" target="_blank">
